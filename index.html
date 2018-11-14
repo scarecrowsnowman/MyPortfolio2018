@@ -432,7 +432,12 @@
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                   <script>
+                                        function myFunction() {
+                                            alert("This Part is Developing!");
+                                        }
+                                    </script>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" onclick="myFunction()">Send Message</button>
                 </div>
               </div>
             </form>
@@ -500,7 +505,9 @@
                   <h2 class="text-uppercase">Star Trails Timelapse</h2>
                   <p class="item-intro text-muted">April 2018 <br>
                   Silver Harbour Concervation Area</p>
-                  <iframe width="700" height="467" src="https://www.youtube.com/embed/hfJJF470s7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="embed-responsive embed-responsive-16by9">
+                  <iframe src="https://www.youtube.com/embed/hfJJF470s7w" allowfullscreen></iframe>
+                    </div>
                   <img class="#" src="#" alt="">
                   <p>This timelapse took 90 minutes and 128 photos. I used Adobe After Effects and Premiere Pro to edit it.</p>
                   <ul class="list-inline">
